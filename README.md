@@ -56,9 +56,12 @@ Generate summaries at different levels:
 * File-level explanations
 
 
- Tech Stack
+
+Tech Stack
 
 Frontend : streamlit
+
+
 Backend : FastAPI, Python, Langchain, FAISS, Github API, Groq LLM.
 
 
@@ -66,20 +69,23 @@ Backend : FastAPI, Python, Langchain, FAISS, Github API, Groq LLM.
 
 1. Clone the repository
 
-git clone https://github.com/aishik2801/CodeAtlas.git
-cd CodeAtlas
+  git clone https://github.com/aishik2801/CodeAtlas.git
+
+  cd CodeAtlas
 
 
 2. Backend Setup
 
-Inside project directory
-pip install -r requirements.txt
-uvicorn backend.api.routes:app --reload --port 8000
+  Inside project directory
+
+  pip install -r requirements.txt
+
+  uvicorn backend.api.routes:app --reload --port 8000
 
 
 3. Frontend Setup
 
-streamlit run frontend/main.py
+  streamlit run frontend/main.py
 
 
 *Preview* 
