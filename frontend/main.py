@@ -1,6 +1,7 @@
 import streamlit as st
 import httpx
 
+
 # ── Page config ──────────────────────────────────────────────
 st.set_page_config(
     page_title="CodeAtlas",
@@ -212,6 +213,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 # ── Content Area ─────────────────────────────────────────────
 st.markdown("")
 view = st.session_state.active_view
+
 
 # ────────── Q&A View ──────────
 if view == "qa":
